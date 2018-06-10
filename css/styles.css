@@ -1,0 +1,127 @@
+html { 
+  background: url(../img/background-whole-page.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Unna', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+img {
+    border-radius: 20px;
+}
+
+span {
+    font-weight: bold;
+    
+}
+.animal-image {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    border: solid 1px #ff3399;
+    border-radius: 20px;
+    width: 300px;
+
+}
+.project-title {
+    
+    line-height: 1.4;
+    font-size: 3.5em; 
+    margin: 30px auto 30px auto;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: .05em;
+    background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+
+    
+    
+    
+}
+
+.card {
+    
+        background-image: url(../img/background-card.png);
+        height: 680px;
+        width: 380px;
+        background-repeat: no-repeat;
+        box-shadow: 6px 6px 6px 8px rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+        border: solid 1px #ff3399;
+        margin: 20px auto 70px auto;
+
+
+
+
+}
+
+.card-title {
+        text-align: center;
+        text-transform: uppercase;
+        margin:25px auto 20px auto;
+        padding: 20px auto 20px auto;
+        letter-spacing: .5em;
+        border: solid 1px #ff3399;
+        border-radius: 10px;
+        width: 300px;
+        background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Poppins', sans-serif;
+
+
+
+
+
+    
+}
+
+.animal-info {
+    
+        margin:20px auto 20px auto;
+        padding: 10px;
+        border: solid 1px #ff3399;
+        border-radius: 15px;
+        width: 295px;
+        font-family: 'Nunito', sans-serif;
+        text-align: justify;
+}
+
+.interesting {
+            font-style: italic;
+
+}
+
+.animal-items {
+    list-style-type:none;
+    text-align: left;
+    margin-left: -30px;
+    margin-bottom: 20px;
+    
+}
+
+.credits {
+    
+    text-align: center;
+    letter-spacing: 0.12em;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 20px;
+    font-size: 13px;
+
+}
